@@ -1,0 +1,148 @@
+import { SnackOption } from '@/types';
+
+export const snacksCarlos: SnackOption[] = [
+  {
+    id: 'sc1',
+    name: 'Helado Frosz proteico',
+    shortName: 'Helado Frosz',
+    emoji: '🍦',
+    forPerson: 'both',
+    category: 'proteic',
+    ingredients: [
+      { name: 'Helado Frosz proteico', quantity: 1, unit: 'u', section: 'congelados' },
+    ],
+  },
+  {
+    id: 'sc2',
+    name: 'Postre proteico Meli',
+    shortName: 'Postre Meli',
+    emoji: '🍰',
+    forPerson: 'both',
+    category: 'proteic',
+    ingredients: [
+      { name: 'Postre proteico Meli', quantity: 1, unit: 'u', section: 'panaderia_keto' },
+    ],
+  },
+  {
+    id: 'sc3',
+    name: 'Merenguitos + Iced Protein Coffee',
+    shortName: 'Merenguitos + coffee',
+    emoji: '☕',
+    forPerson: 'both',
+    category: 'proteic',
+    ingredients: [
+      { name: 'Merenguitos Snack Well', quantity: 1, unit: 'paquete', section: 'dietetica' },
+      { name: 'Whey protein', quantity: 0.5, unit: 'scoop', section: 'dietetica' },
+    ],
+  },
+  {
+    id: 'sc4',
+    name: 'Mugcake de microondas',
+    shortName: 'Mugcake',
+    emoji: '🍫',
+    forPerson: 'both',
+    category: 'proteic',
+    ingredients: [
+      { name: 'Harina de almendras', quantity: 2, unit: 'cdas', section: 'dietetica' },
+      { name: 'Cacao sin azúcar', quantity: 2, unit: 'cdas', section: 'almacen' },
+      { name: 'Claras de huevo (Eggcellence o maple)', quantity: 3, unit: 'u', section: 'lacteos' },
+      { name: 'Tregar blanco light', quantity: 1, unit: 'cdas', section: 'lacteos' },
+    ],
+  },
+  {
+    id: 'sc5',
+    name: 'Atún con claras duras',
+    shortName: 'Atún + claras',
+    emoji: '🐟',
+    forPerson: 'both',
+    category: 'proteic',
+    ingredients: [
+      { name: 'Atún en lata (en agua)', quantity: 0.5, unit: 'lata', section: 'almacen' },
+      { name: 'Claras de huevo (Eggcellence o maple)', quantity: 2, unit: 'u', section: 'lacteos' },
+    ],
+  },
+  {
+    id: 'sc6',
+    name: 'Claras con pavita',
+    shortName: 'Claras + pavita',
+    emoji: '🍳',
+    forPerson: 'both',
+    category: 'proteic',
+    ingredients: [
+      { name: 'Claras de huevo (Eggcellence o maple)', quantity: 4, unit: 'u', section: 'lacteos' },
+      { name: 'Pavita en fetas', quantity: 2, unit: 'fetas', section: 'carniceria' },
+    ],
+  },
+  {
+    id: 'sc7',
+    name: 'Cheesecake proteico casero',
+    shortName: 'Cheesecake',
+    emoji: '🍰',
+    forPerson: 'both',
+    category: 'proteic',
+    ingredients: [
+      { name: 'Tregar blanco light', quantity: 100, unit: 'g', section: 'lacteos' },
+      { name: 'Claras de huevo (Eggcellence o maple)', quantity: 3, unit: 'u', section: 'lacteos' },
+    ],
+  },
+  {
+    id: 'sc8',
+    name: 'Frappuccino proteico',
+    shortName: 'Frappuccino',
+    emoji: '☕',
+    forPerson: 'both',
+    category: 'proteic',
+    ingredients: [
+      { name: 'Whey protein', quantity: 0.75, unit: 'scoop', section: 'dietetica' },
+      { name: 'Cacao sin azúcar', quantity: 1, unit: 'cdas', section: 'almacen' },
+    ],
+  },
+  {
+    id: 'sc9',
+    name: 'Whey con agua',
+    shortName: 'Whey solo',
+    emoji: '🥤',
+    forPerson: 'carlos',
+    category: 'proteic',
+    ingredients: [
+      { name: 'Whey protein', quantity: 1, unit: 'scoop', section: 'dietetica' },
+    ],
+  },
+  {
+    id: 'sc10',
+    name: 'Whey con leche de almendras y café',
+    shortName: 'Whey + café',
+    emoji: '☕',
+    forPerson: 'carlos',
+    category: 'proteic',
+    ingredients: [
+      { name: 'Whey protein', quantity: 0.75, unit: 'scoop', section: 'dietetica' },
+      { name: 'Leche de almendras sin azúcar', quantity: 0.25, unit: 'taza', section: 'almacen' },
+    ],
+  },
+  {
+    id: 'sc11',
+    name: 'Gelatina proteica',
+    shortName: 'Gelatina proteica',
+    emoji: '🍮',
+    forPerson: 'both',
+    category: 'proteic',
+    ingredients: [
+      { name: 'Gelatina sin sabor', quantity: 1, unit: 'sobre', section: 'almacen' },
+      { name: 'Whey protein', quantity: 2, unit: 'scoop', section: 'dietetica' },
+      { name: 'Cacao sin azúcar', quantity: 3, unit: 'cdas', section: 'almacen' },
+    ],
+  },
+  {
+    id: 'sc12',
+    name: 'Helado proteico casero (arándanos + whey)',
+    shortName: 'Helado arándanos',
+    emoji: '🫐',
+    forPerson: 'both',
+    category: 'proteic',
+    ingredients: [
+      { name: 'Arándanos congelados', quantity: 1, unit: 'bandeja', section: 'congelados' },
+      { name: 'Whey protein', quantity: 0.75, unit: 'scoop', section: 'dietetica' },
+    ],
+  },
+];

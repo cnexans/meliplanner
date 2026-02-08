@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-carlos: #3B82F6;
+  --color-johana: #EC4899;
+  --color-both: #8B5CF6;
+  --color-success: #10B981;
+}
+
+html {
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+  padding-bottom: 5rem;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    padding-bottom: 0;
+  }
+}
